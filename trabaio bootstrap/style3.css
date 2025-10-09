@@ -1,0 +1,26 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(51, 84, 122, 0.925)!important;
+    
+}
+a  {
+    text-decoration: none !important;
+    
+}
+.menu{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.pomofocus{
+    margin-right: 120px;
+}
+.color{
+    color: rgb(202, 193, 193); 
+}
+.margin{
+    margin-left: 244px;
+}
+
+    

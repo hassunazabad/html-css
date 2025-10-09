@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+}
+body{
+    
+    background: #353535;
+}
+header{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 25px;
+
+}
+.navigation ul li a{
+    color:white;
+    font-size: small;
+    
+}
+a:hover{
+  text-decoration: underline;
+}
+.appicon{
+    width: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.perfil{
+    width: 35px;
+    margin-right: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 60px;
+}
+.input{
+     font-size: large;
+  
+}
+
+input{
+    width: 550px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 40px;   
+
+}
+label{
+  color: white;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+}
+.icones li{
+    list-style: none;
+    
+}
+.icones li a{
+    margin-left: 92px;
+    width: 15px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  0.3s ease-in-out;
+   
+}
+.icones li a:hover{
+    transform: translateY(-10px);
+}
+.icones li a img{
+    transform: scale(0.5);
+}
+.icones p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.twitch{
+    width: 70px;
+    background-color: #313030;
+    border-radius: 25px;
+}
+.lol{
+    width: 80px;
+    background-color: #313030;
+    border-radius: 25px;
+    margin-right: 7px;
+}
+.max{
+    width: 100px;
+    background-color: #313030;
+    border-radius: 95px;
+    margin-right: 3px;
+}
+.insta{
+    width: 120px;
+    background-color: #313030;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.netflix{
+        width: 90px;
+        background-color: #313030;
+        border-radius: 25px;
+}
+.disney{
+    width: 100px;
+    background-color: #313030;
+    border-radius: 300px;
+}
+
+
+.text img{
+    width: 300px;
+}
+

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
+    background-color: rgb(46, 46, 46) !important;
+}
+.arredondamento{
+    margin-left: 480px !important;
+}
+
+
+.branco{
+    color: rgba(255, 255, 255, 0.849) !important;
+}
+.red{
+    color: rgb(252, 0, 0) !important;
+}
+a{
+    text-decoration: none !important;
+}
+.popularlink a:hover{
+    background-color: black !important;
+    color: white !important;
+    
+    border-radius: 20px !important;
+}
+.curiosidadelink a:hover{
+        
+    background-color: black !important;
+    color: white !important;
+    
+    
+    border-radius: 20px !important;
+}
+.img{
+
+    background-image: url(img/rua.png);
+}
+.img2{
+    background-image: url(img/brasil.png);
+}
+.arredondamentoinicio{
+    padding: 30px !important;
+}
+.fontetitulo{
+    font-size: 3em;
+}
+.gray{
+    color: rgb(190, 190, 190);
+}
+.radius{
+    border-radius: 10px !important;
+}

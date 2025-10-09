@@ -1,0 +1,27 @@
+main {
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    border: 2px solid red;
+    height: 25%;
+}
+body{
+    background-color: aliceblue;
+}
+
+h2::after{
+   content: ⬅;
+}
+
+h2::before{
+    content: ⬅;
+}
+
+main > p{
+    display: none;
+}
+
+main:hover > p{
+    display: block;
+    color: red;
+}

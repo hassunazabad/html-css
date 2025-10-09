@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
+    background-color: rgb(17, 17, 17) !important;
+}
+.fontetitulo{
+    font-size: 2.5em;
+}
+.fontetitulo2{
+    font-size: 1.7em;
+}
+.arredondamentoinicio{
+    padding: 30px !important;
+    }
+    .popularlink a:hover{
+        background-color: black !important;
+        color: white !important;
+        
+        border-radius: 20px !important;
+    }
+    .branco{
+        color: rgba(255, 255, 255, 0.849) !important;
+    }
+    .arredondamento{
+        margin-left: 520px !important;
+    }
+    a{
+        text-decoration: none !important;
+    }
+    .img{
+
+        background-image: url(img/rua.png);
+    }
+    
+    .gray{
+        color: rgb(214, 212, 212);
+    }
+    .corpopular{
+        color: rgb(226, 167, 167);
+    }
+    .corsupercarro{
+        color: rgb(133, 11, 11);
+    }
+    .backgroundpopular{
+        background-color: rgba(41, 40, 40, 0.945);
+    }
+    .backgroundpopular2{
+        background-color: rgb(88, 88, 88);
+    }
+    .radius{
+        border-radius: 10px !important;
+    }

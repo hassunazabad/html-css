@@ -1,0 +1,146 @@
+*{
+     padding: 0;
+     margin: 0;
+}
+
+
+ @font-face {
+    font-family: 'iDroid';
+    src: url('fonts/idroid.woff2') format('woff2'); 
+  }
+body{
+     background-color: #E8E5C4;
+}
+
+.cabecalho{
+      background-image: linear-gradient(to bottom, #289E5A, #023E1D);
+     padding: 20px;
+
+}
+
+.cabecalho h1{
+     color: white;
+     text-align: center;
+     margin-bottom: 15px;
+}
+
+.cabecalho h3{
+     color: #8ddbac;
+ text-align: center;
+ margin-bottom: 15px;
+}
+
+.cabecalho a{
+     color: #67A37F;
+     text-decoration: none;
+     margin-right: 10px;
+}
+
+.cabecalho a:hover{
+    color: #E8E5C4;
+    text-decoration: underline;
+    
+}
+.container{
+         margin: auto;
+         min-width: 300px;
+         max-width: 800px;
+         background-color: white;
+         padding: 20px;
+         box-shadow: 1px 1px 15px  black;
+
+}
+.historia h1{
+         font-family: 'iDroid', sans-serif; 
+         color: #023E1D;
+}
+
+
+.historia  span{
+          color: rgb(9, 148, 9);
+}
+
+
+.primeira h2{
+         font-family: 'iDroid', sans-serif; 
+         color: #1e633a;
+         background-image: linear-gradient(to right, #8fcca9, #f4f5f5);
+
+}
+
+.primeira span{
+         color: #134427;
+          background-color: #b5e9ca;
+}
+
+.surgimento h2 {
+     font-family: 'iDroid', sans-serif; 
+         color: #1e633a;
+         background-image: linear-gradient(to right, #8fcca9, #f4f5f5);
+}
+
+.surgimento span{
+         color: #134427;
+          background-color: #b5e9ca;
+}
+
+
+.bugdroid{
+     width: 100%;
+      margin: auto;
+
+}
+
+main p{
+     margin: 15px 0px;
+     text-align: justify;
+     text-indent: 30px;
+     line-height: 1.7em;
+}
+
+img{
+     width: 100%;
+     margin-top: 20px
+}
+
+
+
+iframe{
+     width: 100%;
+     margin-top: 40px;
+     height: 600px;
+     background-color: #023E1D;
+     padding: 5px;
+}
+
+.lista{
+  
+     background-color: #8ddbac;
+     padding: 20px;
+     border-radius: 5px;
+     margin-top: 20px;
+}
+
+.lista ul{
+     columns: 2;
+     list-style-position: inside;
+}
+
+.lista h2{
+      background-color: #023E1D;
+     padding: 10px;
+     border-radius: 5px;
+     color: white;
+     margin: -20px -20px 0px -20px;
+}
+
+
+
+footer{
+     margin-top: 20px;
+     background-color: #023E1D;
+     color: white;
+     text-align: center;
+     width: 100%;
+     height: 20%;
+}

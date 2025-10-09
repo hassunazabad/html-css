@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif !important;
+    background-color: rgb(59, 53, 53) !important;
+}
+.arredondamentoinicio{
+padding: 30px !important;
+}
+.img{
+
+    background-image: url(img/rua.png);
+}
+.arredondamento{
+    margin-left: 520px !important;
+}
+a{
+    text-decoration: none !important;
+}
+.branco{
+    color: rgba(255, 255, 255, 0.849) !important;
+}
+.popularlink a:hover{
+    background-color: black !important;
+    color: white !important;
+    
+    border-radius: 20px !important;
+}
+.gray{
+    color: rgb(214, 212, 212);
+}
+.fontetitulo{
+    font-size: 3em;
+}
+.radius{
+    border-radius: 10px !important;
+}
