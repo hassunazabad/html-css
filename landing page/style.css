@@ -1,0 +1,93 @@
+body{
+    background-image: linear-gradient(to right, #3f2c2c, #885a4f);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+align-items: center;    
+justify-content: space-around;
+    padding: 24px;
+    border-bottom: 1px solid #9d847d;
+    width: 100%;
+}
+
+.cabecalho img{
+    height: 72px;
+}
+
+.menu{
+  display: flex;
+  gap: 30px;
+}
+.menu a{
+    color: white;
+     text-decoration: none;
+     
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px; 
+    width: 100%;
+
+}
+
+.container img{
+    width: 230px;
+}
+.principal h1{
+    color: white;
+    margin-bottom: 25px;
+}
+
+.principal h2{
+    color:  rgb(214, 177, 177);
+        margin-bottom: 25px;
+
+}
+
+.principal button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(214, 177, 177);
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid  #9d847d ;
+    width: 100%;
+}
+
+.coluna h3{
+    color: white;
+}
+
+.coluna p{
+    color: white;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.footer strong{
+     background-image: linear-gradient(to left, #3f2c2c, #885a4f);
+     padding: 10px;
+     border-radius: 20px;
+}
+  
