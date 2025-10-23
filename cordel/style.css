@@ -13,6 +13,9 @@
     margin: 0;
 }
 
+body{background-color: #FFFAEE;
+}
+
 
 p{
     text-indent: 30px;
@@ -22,18 +25,18 @@ p{
 
 .cabecalho{
     text-align: center;
-    background-color: black;
+    background-color: #805500;
     padding: 40px;
 }
 
 .cabecalho h1{
     color: white;
     font-family: var(--fonte1);
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 .cabecalho span{
-    color: gray;
+    color: rgb(150, 148, 25);
 }
 
 .cabecalho a{
