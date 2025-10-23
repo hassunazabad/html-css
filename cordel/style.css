@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --fonte1: "Roboto Mono", monospace;
+    --fonte2:  "Noto Sans", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+p{
+    text-indent: 30px;
+    font-family: var(--fonte2);
+    font-size: 20px;
+}
+
+.cabecalho{
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+}
+
+.cabecalho h1{
+    color: white;
+    font-family: var(--fonte1);
+    font-size: 3em;
+}
+
+.cabecalho span{
+    color: gray;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho a:hover{
+    text-decoration: underline;
+    color: rgb(201, 196, 196);
+    transition: 0.5s;
+}
+
+
+div{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 3em;
+}
+
+
+.estrofe1{
+    background-color: rgb(53, 51, 51);
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    text-shadow: 2px 2px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.estrofe1 p{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.123);
+  width: 350px;
+  padding: 5px;
+}
+
+.estrofe2{
+    background-color: rgb(53, 51, 51);
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.estrofe2 p{
+    color: white;
+     background-color: rgba(0, 0, 0, 0.123);
+     width: 350px;
+     padding: 5px;
+    text-shadow: 2px 2px 0px black;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 2px;
+    color: white;
+    font-size: 1.2em;
+}
